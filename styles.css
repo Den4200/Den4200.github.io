@@ -51,28 +51,32 @@ header nav ul li a:hover {
     background: #1d612f;
 }
 
-.h2wel {
-    text-align: center;
-}
-
 .welcome {
-    display: inline-block;
+    text-align: center;
     padding: 8px;
-    border-style: solid;
-    border-color: wheat;
-    border-radius: 16px;
-    width: 50%;
     margin: 0 auto;
     color: white;
     
 }
 
 .footer {
-position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #32a852;
-  color: white;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #32a852;
+    color: white;
+    text-align: center;
+}
+
+.dev {
+    color: lightgray;
+    font-size: 16px;
+}
+
+.ghprof {
+    display: inline-block;
+    padding: 8px;
+    margin: 0 auto;
+    color: white;
 }
