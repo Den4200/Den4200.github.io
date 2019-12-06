@@ -124,10 +124,3 @@ header nav ul li a:hover {
     color: lightgray;
     font-size: 16px;
 }
-
-.ghprof {
-    display: inline-block;
-    padding: 8px;
-    margin: 0 auto;
-    color: white;
-}
