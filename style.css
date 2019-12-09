@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand {
+  height: 2.5rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+  transition: all 0.5s ease 0s;
+}
+
+.navbar-nav li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .4rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #00ac92;
+}
+
+.home-inner {
+  background-image: url(img/landing-bg.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 3.6rem;
+  letter-spacing: .1rem;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: .8rem;
+}
+
+.caption span strong{
+  color: #0196a3;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: .4rem;
+  padding: .4rem 1rem;
+  font-size: 1.2rem;
+}
+
+.narrow {
+  width: 90%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: .4rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: .4rem 1rem;
+  margin: 1rem;
+  color: white;
+  background-color: #1ebba3;
+  border-color: #1ebba3;
+}
+
+.btn-secondary:hover {
+  background-color: #189582;
+  border-color: #189582;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+h3.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto .5rem;
+}
+
+.repo img {
+  width: 5rem;
+  padding-bottom: .5rem;
+}
+
+.repo h3 {
+  font-size: 1.3rem;
+}
+
+.repo p {
+  font-size: 1rem;
+}
+
+.fixed {
+  background-image: url(img/pc.jpg);
+  z-index: -1;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.fixed-background h3 {
+
+}
+
+.fixed-background p {
+
+}
