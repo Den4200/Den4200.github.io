@@ -143,6 +143,14 @@ h3.heading {
   font-size: 1rem;
 }
 
+.link {
+  color: #0196a3
+}
+
+.link:hover {
+  color: #006f79;
+}
+
 .fixed {
   background-image: url(img/pc.jpg);
   z-index: -1;
