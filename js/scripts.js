@@ -1,5 +1,6 @@
 // Scripts
 
+// Typing
 var typed = new Typed('#typing', {
     strings: [
         "<strong>a developer</strong>.", 
@@ -10,4 +11,21 @@ var typed = new Typed('#typing', {
     backSpeed: 30,
     showCursor: false,
     loop: true
+});
+
+// Scroll down
+$(document).ready(function(){
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+            scrollTop: $(hash).offset().top
+            }, 800, function() {
+            window.location.hash = hash;
+            });
+        } 
+    });
 });
