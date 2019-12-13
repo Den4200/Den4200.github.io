@@ -1,18 +1,5 @@
 // Scripts
 
-// Typing
-var typed = new Typed('#typing', {
-    strings: [
-        "<strong>a developer</strong>.", 
-        "<strong>a guitarist</strong>.", 
-        "<strong>a student</strong>."
-    ],
-    typeSpeed: 40,
-    backSpeed: 30,
-    showCursor: false,
-    loop: true
-});
-
 // Scroll down
 $(document).ready(function(){
     $("a").on('click', function(event) {
@@ -29,3 +16,17 @@ $(document).ready(function(){
         } 
     });
 });
+
+// Typing
+var typed = new Typed('#typing', {
+    strings: [
+        "<strong>a developer</strong>.", 
+        "<strong>a guitarist</strong>.", 
+        "<strong>a student</strong>."
+    ],
+    typeSpeed: 40,
+    backSpeed: 30,
+    showCursor: false,
+    loop: true
+});
+
