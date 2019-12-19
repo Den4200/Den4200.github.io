@@ -68,7 +68,7 @@ body {
   padding-bottom: .8rem;
 }
 
-.caption span strong{
+#typing strong {
   color: #0196a3;
 }
 

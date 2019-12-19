@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.about-heading {
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+.intro-type {
+    padding: 100px 0px 100px 0px !important;
+    position: relative;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 65px;
+
+}
+
+.about-inner {
+    background-attachment: inherit !important;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+}
